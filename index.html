@@ -205,51 +205,59 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container color-container">
-                    <div class="article-container">
-                        <img
-                                src="./assets/huffmanencoding.png"
-                                alt="Project 1"
-                                class="project-img"
-                        />
+                    <div class="article-container project-container">
+                        <img src="./assets/huffmanencoding.png" alt="Project 1" class="project-img" />
+                        <div class="video-overlay" id="video-overlay1">
+                            <div class="video-container">
+                                <video class="video-player" controls autoplay muted>
+                                    <source src="./assets/huffmanDemo.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
                     </div>
                     <h2 class="experience-sub-title project-title">Huffman Encoding</h2>
                     <div class="btn-container">
-                        <button
-                                class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://github.com/josephjquinn/Huffman-Encoding-Algorithm'">Github
-                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/josephjquinn/Huffman-Encoding-Algorithm'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="toggleVideo('video-overlay1')">Live Demo</button>
                     </div>
                 </div>
+
                 <div class="details-container color-container">
-                    <div class="article-container">
-                        <img
-                                src="./assets/wordle.png"
-                                alt="Project 2"
-                                class="project-img"
-                        />
+                    <div class="article-container project-container">
+                        <img src="./assets/wordle.png" alt="Project 2" class="project-img" />
+                        <div class="video-overlay" id="video-overlay2">
+                            <div class="video-container">
+                                <video class="video-player" controls autoplay muted>
+                                    <source src="./assets/wordleDemo.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
                     </div>
                     <h2 class="experience-sub-title project-title">Infinite Wordle</h2>
                     <div class="btn-container">
-                        <button
-                                class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://github.com/josephjquinn/Infinite-Wordle'">Github
-                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/josephjquinn/Infinite-Wordle'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="toggleVideo('video-overlay2')">Live Demo</button>
                     </div>
                 </div>
+
                 <div class="details-container color-container">
-                    <div class="article-container">
-                        <img
-                                src="assets/snakeAI.png"
-                                alt="Project 2"
-                                class="project-img"
-                        />
+                    <div class="article-container project-container">
+                        <img src="./assets/snakeAI.png" alt="Project 3" class="project-img" />
+                        <div class="video-overlay" id="video-overlay3">
+                            <div class="video-container">
+                                <video class="video-player" controls autoplay muted>
+                                    <source src="./assets/snakeDemo.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                        </div>
                     </div>
                     <h2 class="experience-sub-title project-title">Snake Learning Model</h2>
                     <div class="btn-container">
-                        <button
-                                class="btn btn-color-2 project-btn"
-                                onclick="location.href='https://github.com/josephjquinn/Snake-Deep-Learning'">Github
-                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/josephjquinn/Snake-Deep-Learning'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="toggleVideo('video-overlay3')">Live Demo</button>
                     </div>
                 </div>
             </div>
