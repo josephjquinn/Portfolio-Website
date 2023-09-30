@@ -43,6 +43,30 @@
     .text-container {
         text-align: justify;
     }
+    body {
+        padding: 0; /* Remove padding for full width */
+    }
+
+    /* Center content horizontally */
+    #profile,
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Make content slightly wider */
+    section {
+        margin: 0 10%; /* Increase the margin for a wider appearance */
+    }
+
+    .section__pic-container {
+        width: 80%; /* Make the pic container wider */
+        max-width: 300px; /* Limit the max width for larger screens */
+        height: auto; /* Adjust height for content */
+        justify-content: center;
+    }
 }
 
 /* Tablets and Smaller Screens (up to 850px) */
