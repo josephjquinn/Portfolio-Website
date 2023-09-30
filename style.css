@@ -561,6 +561,8 @@ video
     gap: 10px;
     padding-top: 4vh;
     height: 96vh;
+    height: 100%; /* Fill the entire height of its container */
+
 }
 
 .photo {

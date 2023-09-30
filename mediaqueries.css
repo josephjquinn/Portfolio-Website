@@ -101,8 +101,20 @@
         text-align: justify;
     }
 }
-@media (max-width: 768px) {
-    #photos .photo-grid {
+@media (max-width: 850px) {
+    #photos .photo-grid
+    {
         grid-template-columns: repeat(2, 1fr); /* Display 2 columns on smaller screens */
+
+    }
+    #contact {
+        margin-top: 2rem; /* Adjust the margin as needed */
+    }
+    #profile {
+        margin-bottom: 2rem; /* Adjust the margin as needed to reduce the gap */
+    }
+
+    #about {
+        margin-top: 2rem; /* Adjust the margin as needed to reduce the gap */
     }
 }
