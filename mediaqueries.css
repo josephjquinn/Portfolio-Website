@@ -1,10 +1,70 @@
-/* Media Queries for Responsive Design */
+/* Media Queries */
 
-/* Mobile Devices (up to 600px) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1400px) {
     #profile {
-        height: auto; /* Remove fixed height for mobile devices */
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #experience,
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+    #profile,
+    .section-container {
+        display: block;
+        text-align: center; /* Center content horizontally on mobile */
+    }
+    .arrow {
+        display: none;
+    }
+    section,
+    .section-container {
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact,
+    footer {
+        height: 40vh;
+    }
+    #profile {
+        height: auto; /* Adjusted to fit content */
         margin-bottom: 0;
+    }
+    article {
+        font-size: 1rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
     }
     .about-containers,
     .contact-info-upper-container,
@@ -30,9 +90,9 @@
         text-align: center;
     }
     .section__pic-container {
-        width: auto;
-        height: 46vw; /* Adjust height for better mobile display */
-        justify-content: center;
+        width: 100%; /* Adjusted for full-width content */
+        height: auto; /* Adjusted for variable height content */
+        justify-content: center; /* Center content horizontally */
     }
     .section__text__p2 {
         font-size: 1.25rem;
@@ -43,33 +103,8 @@
     .text-container {
         text-align: justify;
     }
-    body {
-        padding: 0; /* Remove padding for full width */
-    }
-
-    /* Center content horizontally */
-    #profile,
-    .section-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    /* Make content slightly wider */
-    section {
-        margin: 0 10%; /* Increase the margin for a wider appearance */
-    }
-
-    .section__pic-container {
-        width: 80%; /* Make the pic container wider */
-        max-width: 300px; /* Limit the max width for larger screens */
-        height: auto; /* Adjust height for content */
-        justify-content: center;
-    }
 }
 
-/* Tablets and Smaller Screens (up to 850px) */
 @media (max-width: 850px) {
     #photos .photo-grid {
         grid-template-columns: repeat(2, 1fr); /* Display 2 columns on smaller screens */
@@ -82,56 +117,5 @@
     }
     #about {
         margin-top: 2rem; /* Adjust the margin as needed to reduce the gap */
-    }
-}
-
-/* Smaller Screens (up to 1200px) */
-@media screen and (max-width: 1200px) {
-    #desktop-nav {
-        display: none;
-    }
-    #hamburger-nav {
-        display: flex;
-    }
-    #experience,
-    .experience-details-container {
-        margin-top: 2rem;
-    }
-    #profile,
-    .section-container {
-        display: block;
-    }
-    .arrow {
-        display: none;
-    }
-    section,
-    .section-container {
-        height: fit-content;
-    }
-    section {
-        margin: 0 5%;
-    }
-    .section__pic-container {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
-    }
-    .about-containers {
-        margin-top: 0;
-    }
-}
-
-/* Small to Medium Screens (up to 1400px) */
-@media screen and (max-width: 1400px) {
-    #profile {
-        height: 83vh;
-        margin-bottom: 6rem;
-    }
-    .about-containers {
-        flex-wrap: wrap;
-    }
-    #contact,
-    #projects {
-        height: fit-content;
     }
 }
