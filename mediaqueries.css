@@ -101,3 +101,8 @@
         text-align: justify;
     }
 }
+@media (max-width: 768px) {
+    #photos .photo-grid {
+        grid-template-columns: repeat(2, 1fr); /* Display 2 columns on smaller screens */
+    }
+}
