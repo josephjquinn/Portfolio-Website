@@ -354,6 +354,18 @@ section
 {
     font-weight: bold;
     color: black;
+    margin-top: 15px;
+}
+
+.hobbies-text
+{
+    margin-top: 15px;
+}
+
+.major-indent
+{
+    margin-left: 40px;
+    margin-top: 5px;
 }
 .arrow
 {
@@ -411,7 +423,6 @@ section
 .article-container
 {
     display: flex;
-    text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
@@ -436,7 +447,6 @@ article
 {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
     gap: 0.5rem;
 }
 

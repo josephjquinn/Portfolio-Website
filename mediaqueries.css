@@ -129,6 +129,24 @@
         align-items: center;
         text-align: center;
     }
+    .text-container
+    {
+        text-align: center;
+    }
+    .education--text
+    {
+        text-align: center;
+    }
+    .about-containers
+    {
+        flex-direction: column;
+    }
+    .major-indent
+    {
+        text-align: center;
+        margin-left: 0;
+    }
+
 }
 
 /* Additional adjustments for specific screen widths */
