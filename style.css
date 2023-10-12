@@ -417,6 +417,20 @@ section
     gap: 2.5rem;
     justify-content: space-around;
 }
+.half-width-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.half-width-container .details-container
+{
+    width: calc(50% - 10px); /* Adjust margin as needed */
+    background-color: white;
+    padding: 20px;
+    margin-top: 4rem;
+}
 
 article
 {
