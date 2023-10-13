@@ -58,6 +58,17 @@
         margin-top: 0;
     }
 
+    .section__text
+    {
+        margin-top: 0;
+    }
+
+    .code-box
+    {
+        left: 0;
+    }
+
+
     /* Center projects section on mobile */
     #projects {
         display: flex;

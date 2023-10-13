@@ -209,6 +209,8 @@ section
 {
     align-self: center;
     text-align: center;
+    margin-top: 20rem;
+
 }
 
 .section__text p
@@ -248,6 +250,51 @@ section
 {
     font-size: 1.5rem;
     text-align: center;
+}
+
+.code-box
+{
+    position: relative;
+    height: 250px;
+    width: 450px;
+    margin: 2rem auto 4rem;
+    left: 10%;
+    /*background-color: #f1f1f1;*/
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.var-highlight{
+    color: rgb(153, 119, 61);
+}
+.string-highlight{
+    color: rgba(239, 110, 40, 0.8);
+}
+
+#typewriter{
+    font-size: 1.5em;
+    margin: 0;
+    font-family: "Courier New";
+
+    &:after{
+        content: "|";
+        animation: blink 500ms linear infinite alternate;
+    }
+}
+
+@-webkit-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+@keyframes blink{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
 
 /* icons */
