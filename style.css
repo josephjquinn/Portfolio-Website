@@ -436,7 +436,6 @@ section
 .section-container
 {
     gap: 4rem;
-    margin-top: 4rem;
 }
 
 .section__pic-container
@@ -466,6 +465,7 @@ section
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 10rem;
 }
 
 .article-container
@@ -543,7 +543,10 @@ article.icon
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    position: relative;
+    height: 100%;
+    min-height: fit-content;
+    margin-top: 10rem;
 }
 
 .contact-info-upper-container
@@ -567,9 +570,6 @@ article.icon
     margin: 1rem;
 }
 
-#contact {
-    margin-top: 25rem; /* Add some top margin to create space between sections */
-}
 .contact-info-container p
 {
     font-size: larger;
@@ -627,6 +627,8 @@ video
 /* Camera Roll */
 #photos {
     position: relative;
+    height: 100%;
+    min-height: fit-content;
 }
 
 .photo-grid {
@@ -634,8 +636,6 @@ video
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding-top: 4vh;
-    height: 96vh;
-    height: 100%; /* Fill the entire height of its container */
 
 }
 
